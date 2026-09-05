@@ -27,7 +27,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
   </head>
-  <body data-bs-spy="scroll" data-bs-target="navbar-example">
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <nav
       id="navbar-example"
       class="navbar navbar-expand-lg bg-body-tertiary py-3 sticky-top"
@@ -50,7 +50,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav gap-4 ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -287,7 +287,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#our-services">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Testimonials</a>
@@ -446,10 +446,10 @@
             PREMIUM COLLECTION
            </div>
           </div>
-          <h1 class=" featured-heading text-center py-4">
+          <h1 class=" titel-heading text-center py-4">
             Featured <span>Properties</span>
           </h1>
-          <p class=" featured-description text-center mb-0">Discover our handpicked selection of premium properties in the most <br> desirable locations</p>
+          <p class=" titel-paragraph text-center mb-0">Discover our handpicked selection of premium properties in the most <br> desirable locations</p>
           
           <div class="row g-4 mt-4">
             <div class="col-12 col-lg-4">
@@ -635,6 +635,611 @@
             </a>
 </div>
       </div>
+    </section>
+
+    <section id="our-services">
+      <div class="container py-5">
+        <div class=" d-flex align-items-center justify-content-center gap-3">
+           <div class=" premium-title border rounded-pill px-4 py-2">
+            What We Offer
+           </div>
+          </div>
+          <h1 class=" titel-heading text-center py-4">
+            Our <span>Services</span>
+          </h1>
+          <p class=" titel-paragraph text-center mb-0">Comprehensive real estate solutions tailored to your needs</p>
+
+          <div class="service-tabs mt-4">
+
+            <ul class="nav nav-tabs justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="#buying">
+                  <i class="fa-solid fa-house"></i>
+                  Buying
+                </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" data-bs-toggle="tab" href="#selling">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  Selling
+                 </a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#renting">
+                  <i class="fa-solid fa-key"></i>
+                  Renting
+                </a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#investing">
+                  <i class="fa-solid fa-chart-line"></i>
+                  Investing
+                </a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#commercial">
+                  <i class="fa-solid fa-building"></i>
+                  Commercial
+                </a>
+               </li>
+            </ul>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="buying">
+              <div class="row align-items-center g-3 mt-5">
+
+        <div class="col-12 col-lg-6">
+
+          <h2 class="fw-bold mb-3">
+            Home Buying Made Simple
+          </h2>
+
+           <p class="text-secondary fs-5 mb-4">
+            Our expert team guides you through every step of the home buying
+            process, from initial search to closing day.
+           </p>
+
+
+           <div class="buying-features mt-5">
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon ">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Property Search
+                    </h5>
+
+                    <p class="text-secondary  mb-0">
+                        Access exclusive listings and get notified of new properties that match your criteria.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-calculator"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Financial Planning
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                        Get pre-approved for mortgages and understand your budget with our financial experts.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-handshake"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Negotiation Support
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                        Our skilled negotiators ensure you get the best possible deal on your dream home.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <button class="btn start-search-btn px-4 py-3">
+            Start Your Search
+        </button>
+
+
+        </div>
+
+          <div class="col-12 col-lg-6">
+
+              <div class="buying-image position-relative">
+
+                  <img src="imges/home-buying.png" class="w-100 rounded-4"alt="Home Buying">
+
+
+                  <div class="success-card position-absolute rounded-4 shadow p-4">
+
+                      <h3 class="fw-bold mb-1">
+                      98%
+                      </h3>
+
+                      <p class="mb-0 text-secondary">
+                      Success Rate
+                      </p>
+
+                  </div>
+
+
+              </div>
+
+          </div>
+      </div>
+
+            </div>
+
+            <div class="tab-pane fade selling-page " id="selling">
+              <div class="row align-items-center g-3 mt-5">
+
+        <div class="col-12 col-lg-6">
+
+          <h2 class="fw-bold mb-3">
+            Maximize Your Home's Value
+          </h2>
+
+           <p class="text-secondary fs-5 mb-4">
+            Sell your property quickly and for the best price with our comprehensive marketing strategy and expert guidance.
+           </p>
+
+
+           <div class="buying-features mt-5">
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Market Analysis
+                    </h5>
+
+                    <p class="text-secondary  mb-0">
+                        Get a comprehensive market analysis to price your home competitively.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Professional Marketing
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                        High-quality photography, virtual tours, and multi-channel marketing campaigns.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-handshake"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Buyer Screening
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                        We pre-qualify buyers to ensure serious inquiries and smooth transactions.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <button class="btn start-search-btn px-4 py-3">
+            Get Home Valuation
+        </button>
+
+
+        </div>
+
+          <div class="col-12 col-lg-6">
+
+              <div class="buying-image position-relative">
+
+                  <img src="imges/home-selling.png" class="w-100 rounded-4"alt="Home Buying">
+
+
+                  <div class="success-card2 position-absolute rounded-4 shadow p-4">
+
+                      <h3 class="fw-bold fs-4 mb-1">
+                      21 days
+                      </h3>
+
+                      <p class="mb-0 text-secondary">
+                      Avg. Time to Sell
+                      </p>
+
+                  </div>
+
+
+              </div>
+
+          </div>
+      </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="renting">
+              <div class="row align-items-center g-3 mt-5">
+
+        <div class="col-12 col-lg-6">
+
+          <h2 class="fw-bold mb-3">
+            Premium Rental Properties
+          </h2>
+
+           <p class="text-secondary fs-5 mb-4">
+            Find your perfect rental home with our extensive portfolio of quality properties and personalized service.
+           </p>
+
+
+           <div class="buying-features mt-5">
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-map-location"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Prime Locations
+                    </h5>
+
+                    <p class="text-secondary  mb-0">
+                        Access rentals in the most desirable neighborhoods and communities.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Verified Properties
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                        All our rental properties are thoroughly inspected and verified for quality.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        24/7 Support
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                        Round-the-clock maintenance and tenant support services.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <button class="btn start-search-btn px-4 py-3">
+            Browse Rentals
+        </button>
+
+
+        </div>
+
+          <div class="col-12 col-lg-6">
+
+              <div class="buying-image position-relative">
+
+                  <img src="imges/service-img-4.png" class="w-100 rounded-4"alt="Home Buying">
+
+
+                  <div class="success-card position-absolute rounded-4 shadow p-4">
+
+                      <h3 class="fw-bold fs-4 mb-1">
+                      5,000+
+                      </h3>
+
+                      <p class="mb-0 text-secondary">
+                      Available Rentals
+                      </p>
+
+                  </div>
+
+
+              </div>
+
+          </div>
+      </div>
+
+            </div>
+
+            <div class="tab-pane fade investing-page " id="investing">
+              <div class="row align-items-center g-3 mt-5">
+
+        <div class="col-12 col-lg-6">
+
+          <h2 class="fw-bold mb-3">
+            Real Estate Investment
+          </h2>
+
+           <p class="text-secondary fs-5 mb-4">
+           Build wealth through strategic real estate investments with our expert guidance and market insights.
+           </p>
+
+
+           <div class="buying-features mt-5">
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-chart-pie"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Portfolio Analysis
+                    </h5>
+
+                    <p class="text-secondary  mb-0">
+                        Comprehensive analysis of investment opportunities and portfolio optimization.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-money-bill"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        ROI Projections
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                        Detailed return on investment calculations and market forecasting.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Property Management
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                       Full-service property management for hands-off investment experience.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <button class="btn start-search-btn px-4 py-3">
+            Get Home Valuation
+        </button>
+
+
+        </div>
+
+          <div class="col-12 col-lg-6">
+
+              <div class="buying-image position-relative">
+
+                  <img src="imges/home-investing.png" class="w-100 rounded-4"alt="home-investing">
+
+
+                  <div class="success-card3 position-absolute rounded-4 shadow p-4">
+
+                      <h3 class="fw-bold fs-4 mb-1">
+                      15%
+                      </h3>
+
+                      <p class="mb-0 text-secondary">
+                      Avg. Annual ROI
+                      </p>
+
+                  </div>
+
+
+              </div>
+
+          </div>
+      </div>
+
+            </div>
+
+            <div class="tab-pane fade commercial-page " id="commercial">
+              <div class="row align-items-center g-3 mt-5">
+
+        <div class="col-12 col-lg-6">
+
+          <h2 class="fw-bold mb-3">
+            Commercial Real Estate
+          </h2>
+
+           <p class="text-secondary fs-5 mb-4">
+          Expert commercial real estate services for businesses, investors, and developers.
+           </p>
+
+
+           <div class="buying-features mt-5">
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Office Spaces
+                    </h5>
+
+                    <p class="text-secondary  mb-0">
+                        Prime office locations for businesses of all sizes and industries.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-warehouse"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Industrial Properties
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                        Warehouses, manufacturing facilities, and distribution centers.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="feature-item d-flex gap-3 mb-4">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-store"></i>
+                </div>
+
+                <div>
+                    <h5 class="fw-bold mb-2">
+                        Retail Spaces
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                       High-traffic retail locations and shopping center opportunities.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <button class="btn start-search-btn px-4 py-3">
+            View Commercial Properties
+        </button>
+
+
+        </div>
+
+          <div class="col-12 col-lg-6">
+
+              <div class="buying-image position-relative">
+
+                  <img src="imges/service-img-5.png" class="w-100 rounded-4"alt="service-img">
+
+
+                  <div class="success-card5 position-absolute rounded-4 shadow p-4">
+
+                      <h3 class="fw-bold fs-4 mb-1">
+                      $2.5B
+                      </h3>
+
+                      <p class="mb-0 text-secondary">
+                      Commercial Volume
+                      </p>
+
+                  </div>
+
+
+              </div>
+
+          </div>
+      </div>
+
+            </div>
+
+          </div>
+      </div>
+      
     </section>
 
     <!-- bootstrab scribt -->

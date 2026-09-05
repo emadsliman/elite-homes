@@ -333,11 +333,8 @@ body {
   }
 }
 /* End hero section */
-
-/* featured-properties */
-#featured-properties{
-  background-color: #F9FAFB;
-  .premium-title{
+/* span-any-section */
+.premium-title{
     font-size: 16px;
     font-weight: 700;
     background-color: #FAF5FF;
@@ -369,14 +366,15 @@ body {
             );
             margin-left: 15px;
         }
-
-  }
-  .featured-heading {
+}
+/* end span-any section */
+/* heading-any section */
+.titel-heading {
     font-size: 48px;
     font-weight: 900;
     color: var(--main-color);
 }
-.featured-heading span {
+.titel-heading span {
     background: linear-gradient(
         90deg,
         #7c3aed,
@@ -385,12 +383,18 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.featured-description{
+/* end heading-any section */
+/* eny-paragragh */
+.titel-paragraph{
   font-size: 25px;
   font-weight: 400;
   color: #4A5565;
 
 }
+/* end eny-paragragh */
+/* featured-properties */
+#featured-properties{
+  background-color: #F9FAFB;
 .property-card{
   cursor: pointer;
 }
@@ -454,3 +458,117 @@ transition: 0.3s;
 
 }
 /* End featured-properties */
+/* our servis */
+#our-services{
+  .service-tabs .nav-tabs {
+    border-bottom: 1px solid #e5e7eb;
+}
+.service-tabs .nav-link {
+    border: none;
+    color: #4a5565;
+    font-weight: 600;
+    padding: 20px 25px;
+    transition: 0.3s;
+}
+.service-tabs .nav-link.active {
+    color: var(--main-color);
+    background-color: #faf5ff;
+    border-bottom: 2px solid var(--main-color);
+}
+.service-tabs .nav-link:hover {
+    color: var(--main-color);
+    background-color: #faf5ff;
+    border-bottom: 2px solid var(--main-color);
+}
+.buying-features .feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #f5f3ff;
+    color: var(--main-color);
+    border-radius: 8px;
+    flex-shrink:0
+    
+}
+.start-search-btn{
+  background-color: var(--main-color);
+    color: white;
+    border: none;
+    font-weight: 600;
+    &:hover{
+      background-color: #502d8e;
+    }
+}
+.buying-image img{
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.success-card {
+    color: var(--main-color);
+    background-color: white;
+    width: 150px;
+    bottom: -25px;
+    left: -40px;
+}
+.selling-page .feature-icon {
+    color: #00A63E;
+    background-color: #DBFCE7;
+}
+
+.selling-page .btn {
+  background-color: #00A63E;
+  &:hover{
+    background-color: #01742b;
+  }
+}
+
+.success-card2 {
+    color: #00A63E;
+    background-color: white;
+    width: 150px;
+    bottom: -25px;
+    right:-40px;
+}
+.investing-page .feature-icon {
+    color: #D08700;
+    background-color: #FEF9C2;
+}
+.investing-page .btn {
+  background-color: #D08700;
+  &:hover{
+    background-color: #ab7207;
+  }
+}
+.success-card3 {
+    color: #D08700;
+    background-color: white;
+    width: 150px;
+    bottom: -25px;
+    right:-40px;
+}
+.commercial-page .feature-icon {
+    color: #4F39F6;
+    background-color: #E0E7FF;
+}
+.commercial-page .btn {
+  background-color: #4F39F6;
+  &:hover{
+    background-color: #4531d7;
+  }
+}
+.success-card5{
+    color: #4F39F6;
+    background-color: white;
+    width: 150px;
+    bottom: -25px;
+    left: -40px;
+}
+ 
+
+
+}
+
+/* end our servis */
