@@ -386,8 +386,10 @@ body {
 /* end heading-any section */
 /* eny-paragragh */
 .titel-paragraph{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
+  max-width: 650px;
+  margin: auto;
   color: #4A5565;
 
 }
@@ -685,9 +687,16 @@ transition: 0.3s;
     background-color: rgba(255, 255, 255, 0.35);
 }
 .carousel-window {
-    width: calc(100% - 250px);
+    width: 100%;
     margin: auto;
     overflow: hidden;
+}
+@media (min-width:768px){
+
+    .carousel-window {
+        width: calc(100% - 250px);
+    }
+
 }
 
 .testimonial-card {
@@ -697,3 +706,28 @@ transition: 0.3s;
 
 }
 /* end testimonials */
+/* frequently-asked-questions */
+#frequently-asked-questions{
+  background-color: #F9FAFB;
+.accordion-button:not(.collapsed) {
+    background-color: #f2f5f7 !important; 
+}
+.accordion-button.collapsed {
+    background-color: white !important;
+}
+.accordion-button::after {
+    display: none;
+}
+.faq-icon {
+    margin-left: auto;
+    font-size: 15px;
+    color: #6A7282;
+    transition: 0.3s ease;
+}
+.accordion-button:not(.collapsed) .faq-icon {
+    transform: rotate(180deg);
+}
+
+}
+
+/* end frequently-asked-questions */
