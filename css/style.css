@@ -572,3 +572,128 @@ transition: 0.3s;
 }
 
 /* end our servis */
+/* Testimonials */
+#testimonials {
+   background: linear-gradient(
+    135deg,
+    #54139c,
+    #6819aa
+);
+    color: white;
+
+    .client-title {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #f5f3ff;
+    color: var(--main-color);
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 70px;
+        height: 2px;
+    }
+
+    &::before {
+        right: 100%;
+        background: linear-gradient(
+            to left,
+            #fbbf24,
+            transparent
+        );
+        margin-right: 10px;
+    }
+
+    &::after {
+        left: 100%;
+        background: linear-gradient(
+            to right,
+            #fbbf24,
+            transparent
+        );
+        margin-left: 10px;
+    }
+
+}
+    .client-heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+.client-description {
+    font-size: 20px;
+    font-weight: 400px;
+}
+.rating i{
+    color: #fbbf24;
+    font-size: 18px;
+}
+.text-star p{
+  font-size: 15px;
+  font-weight: 400;
+}
+.carousel-indicators{
+   position: absolute;
+   bottom:-25px;
+}
+.carousel-indicators [data-bs-target]  {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    transition: 0.3s;
+}
+.carousel-indicators .active {
+
+    background-color:white;
+
+}
+.carousel-indicators [data-bs-target]:hover {
+
+    background-color: white;
+
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.15);
+    opacity: 1;
+    transition: 0.3s ease;
+}
+.carousel-control-prev {
+    left: 60px;
+}
+
+.carousel-control-next {
+    right: 60px;
+}
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.carousel-window {
+    width: calc(100% - 250px);
+    margin: auto;
+    overflow: hidden;
+}
+
+.testimonial-card {
+    width: 90%;
+    margin: auto;
+}
+
+}
+/* end testimonials */
